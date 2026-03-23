@@ -1,6 +1,6 @@
 package exercicios;
 
-public class Decimal {
+public class Ex02 {
     public static void main (String[] args) {
         double x = 3.5;
         double y = 4.64;

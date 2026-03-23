@@ -1,6 +1,6 @@
 package exercicios;
 
-public class AtribuirVar {
+public class Ex03 {
     public static void main(String[] args) {
 
         double x = 4;
