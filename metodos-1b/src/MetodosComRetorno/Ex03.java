@@ -2,11 +2,9 @@ package MetodosComRetorno;
 
 public class Ex03 {
     public static void main(String[] args) {
-        boolean valor = retornarBooleano();
-        System.out.println(valor);
+        System.out.println(obterNumero());
     }
-
-    public static boolean retornarBooleano() {
-        return true;
+    public static int obterNumero(){
+        return 100;
     }
 }
