@@ -1,11 +1,11 @@
 package RetornoEParametros;
-import java.util.Scanner;
 
 public class Ex05 {
-    public static void main (String [] args){
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Digite sua idade: ");
-        int idade = verifica(sc.nextInt());
+    public static void main(String[] args){
+        boolean maiorDeIdade = verificarIdade(16);
+        System.out.println(maiorDeIdade);
     }
-
+    public static boolean verificarIdade(int idade){
+        return idade >= 18;
+    }
 }
