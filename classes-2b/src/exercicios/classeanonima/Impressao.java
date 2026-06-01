@@ -1,4 +1,5 @@
 package exercicios.classeanonima;
 
-public class Impressao {
+public interface Impressao {
+    void imprimir();
 }

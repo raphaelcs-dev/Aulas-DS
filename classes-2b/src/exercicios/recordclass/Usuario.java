@@ -1,4 +1,6 @@
 package exercicios.recordclass;
 
-public record Usuario() {
+public record Usuario(
+    String login,
+    String email) {
 }

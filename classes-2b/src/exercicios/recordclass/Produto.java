@@ -1,4 +1,6 @@
 package exercicios.recordclass;
 
-public record Produto() {
+public record Produto(
+    String nome,
+    double preco) {
 }

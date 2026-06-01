@@ -1,4 +1,6 @@
 package exercicios.recordclass;
 
-public enum Cidade {
+public record Cidade(
+    String nome,
+    String estado){
 }

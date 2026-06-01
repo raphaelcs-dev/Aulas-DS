@@ -1,4 +1,6 @@
 package exercicios.recordclass;
 
-public record Coordenada() {
+public record Coordenada(
+    int x,
+    int y) {
 }

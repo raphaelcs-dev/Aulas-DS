@@ -1,4 +1,7 @@
 package exercicios.classeanonima;
 
-public class Operacao {
+public interface Operacao {
+    int calcular(
+            int a,
+            int b);
 }
