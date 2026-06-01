@@ -1,4 +1,7 @@
 package exercicios.classefinal;
 
-public class ConfigSystem {
+public final class ConfigSystem {
+    public void mostrarVersao() {
+        System.out.println("Versão 1.0");
+    }
 }

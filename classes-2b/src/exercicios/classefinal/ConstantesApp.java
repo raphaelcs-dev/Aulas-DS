@@ -1,4 +1,7 @@
 package exercicios.classefinal;
 
-public class ConstantesApp {
+public final class ConstantesApp {
+    public void mostrarNomeSistema() {
+        System.out.println("Sistema DS");
+    }
 }

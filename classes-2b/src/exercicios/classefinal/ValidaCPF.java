@@ -1,4 +1,7 @@
 package exercicios.classefinal;
 
-public class ValidaCPF {
+public final class ValidaCPF {
+    public boolean validar(String cpf) {
+        return cpf.length() == 11;
+    }
 }
