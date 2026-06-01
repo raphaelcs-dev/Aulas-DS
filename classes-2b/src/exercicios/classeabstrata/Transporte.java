@@ -1,5 +1,5 @@
 package exercicios.classeabstrata;
 
-public class Transporte {
+public abstract class Transporte {
     public abstract void mover();
 }
