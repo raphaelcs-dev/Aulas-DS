@@ -1,4 +1,4 @@
-package exercicios;
+package exercicios.ex01;
 
 public class Estudante extends Pessoa {
     private int matricula;

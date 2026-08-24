@@ -1,4 +1,6 @@
-package exercicios;
+package exercicios.ex01;
+
+import exercicios.ex01.Estudante;
 
 public class TestaPessoa {
     public static void main(String[]args){
