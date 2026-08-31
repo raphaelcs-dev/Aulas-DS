@@ -1,8 +1,9 @@
 package exercicios.ex02;
 
-public class Cachorro extends Animal{
+public class Cachorro extends Animal {
+
     @Override
-    public void emititsom(){
-        System.out.println("Cachorro latiu!");
+    public void emitirSom() {
+        System.out.println("Au Au");
     }
 }
